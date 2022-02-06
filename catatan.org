@@ -1,0 +1,43 @@
+* Elastic Stack
+Relialbly and Securely take data from any source, in any format, then search, analyze and visualize it in real time.
+Elastic Stack is consist of
+- Kibana
+- Elasticsearch
+- Beats
+- Logstash
+** Who Uses elastic stack?
+- Netflix
+- Stack Overflow
+- Linked In
+- Medium
+- Github
+- Twilio
+- and many more.
+*** Sources
+- https://www.elastic.co/customers/
+- https://logz.io/blog/15-tech-companies-chose-elk-stack/
+
+** Use Cases
+*** Logging
+  - Activision Blizzard:
+  To store and analyze gamer and server event
+*** Metrics
+  - Mars Curiousity Rover by Nasa
+  Sends telemetry sensor and photo data into the elastic stack
+  for analysis so if someone want to know how hot mars is on an hourly daily basis
+  you can go and follow the data
+*** Security Analytics
+- Slack
+  Use Elastic Stack to secure communication to their channel
+*** Business Analytics
+- Tinder
+  Tinder use elastic stack to match people
+
+** Elasticsearch
+Elasticsearch is known as the heart of elastic stack and this is where you can store, search, and analyze your data.
+
+Great Search Experience = Get fast and relevant results, no matter the scale.
+
+** Kibana
+Visualize and manage data.
+ 
