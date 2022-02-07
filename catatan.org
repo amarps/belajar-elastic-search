@@ -38,6 +38,53 @@ Elasticsearch is known as the heart of elastic stack and this is where you can s
 
 Great Search Experience = Get fast and relevant results, no matter the scale.
 
+*** Relevance of a search
+Precision and recall is used to measure the relevance of a search.
+**** True Positives
+Relevant documents that are returned to the user
+
+**** False Positives
+Irelvant documents that are returned to the user
+
+**** True Negatives
+Irelvant documents that are not returned to the user
+
+**** False Negatives
+Relevant documents that are not returned to the user
+
+
+*** Precision and recall
+Precision and recall are inversely related.
+Precision want all the results to be a perfect match to the query, even if it means returning less documents.
+Recall want to retrieve more results event if documents may not be a perfect match to the query.
+Precision and recall determine which documents are included in the search results.
+Precision and recall do not determine which of the returned documents are more relevant compared to the other!
+
+**** Precision
+What portion of the retrieved data is actually relevant to the search query?
+precision = TP / (TP + FP)
+
+**** Recall
+What portion of relevant data is being returned as search results?
+recall = TP / (TP + FN)
+
+*** Ranking
+Ranking refers to ordering of the results(from most relevant at the top, to least relevant at the bottom).
+*** Score
+- the score is a value represent how relevant a document is to that specific query
+- A score is computed for each document taht is a hit
+- hits are search result that are sent to the user.
+**** How to compute a score?
+- Term Frequency(TF)
+- Inverse Document Frequency(IDF)
+- And more
+
+**** Term Frequency(TF)
+determines how many times each search term appears in a document.
+If search terms are found in high frequency in a document is considered more relevant to the search query.
+
+**** Inverse Document Frequency
+IDF diminishes the weight of terms that occur in the document set and increases the weight of terms that occur rarely!
 ** Kibana
 Visualize and manage data.
 
